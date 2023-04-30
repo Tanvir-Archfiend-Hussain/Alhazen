@@ -3,9 +3,8 @@ searchBX.addEventListener('keypress', setQuery)
 
 function setQuery(evt) {
     if (evt.keyCode == 13) {
-        getResults(searchBX.value)
+        //getResults(searchBX.value)
         console.log(searchBX.value);
     }
 }
 
-setQuery()
