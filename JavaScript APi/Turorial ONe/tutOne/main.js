@@ -13,7 +13,9 @@ function setQuery(evt) {
 }
 */
 
-let file = "annual-enterprise-survey-2021-financial-year-provisional-csv.text"
-fetch (file)
-.then(x => x.text())
-.then(y => document.getElementById("demo").innerHTML = y);
+function TextFunc() {
+    let file = "annual-enterprise-survey-2021-financial-year-provisional-csv.text"
+    fetch (file)
+    .then(x => x.text())
+    .then(y => document.getElementById("demo").innerHTML = y);
+}
