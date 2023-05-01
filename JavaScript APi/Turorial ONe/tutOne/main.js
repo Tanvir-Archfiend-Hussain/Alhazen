@@ -26,3 +26,28 @@ function GetLorem() {
     .then(x => x.text())
     .then(y => document.getElementById("demo").innerHTML = y)
 }  
+
+function PicGet() {
+    fetch('PIC025.webp')
+    .then(x =>  {
+        return x.blob()
+    })
+    .then(y => {
+        document.getElementById('idGreenImage').src = URL.createObjectURL(y)
+    })
+}
+
+/** 
+ * 
+ * 
+ * fetch('rainbow.jpg')
+.then(response => {
+    console.log(response)
+    return response.blob()
+})
+.then(blo => {
+    console.log(blo)
+    document.getElementById('rainbow').src = URL.createObjectURL(blo);
+})
+ * 
+ */
