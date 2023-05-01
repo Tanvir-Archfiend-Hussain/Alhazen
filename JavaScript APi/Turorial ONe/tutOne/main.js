@@ -19,3 +19,10 @@ function TextFunc() {
     .then(x => x.text())
     .then(y => document.getElementById("demo").innerHTML = y);
 }
+
+function GetLorem() {
+    let xFile = "lorem.txt" 
+    fetch(xFile)
+    .then(x => x.text())
+    .then(y => document.getElementById("demo").innerHTML = y)
+}  
