@@ -25,7 +25,13 @@ function GetLorem() {
     fetch(xFile)
     .then(x => x.text())
     .then(y => document.getElementById("demo").innerHTML = y)
-}  
+}
+
+function LoremO2() {
+    fetch('lorem0202.txt')
+    .then(x => x.text())
+    .then(y => document.getElementById('demo02').src = URL.createObjectURL(y))
+}
 
 function PicGet() {
     fetch('PIC025.webp')
