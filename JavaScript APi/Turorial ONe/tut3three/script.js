@@ -9,7 +9,7 @@ fetch('readme.txt')
 
 // fetch images
 function pic01Func() {
-    fetch("https://ae01.alicdn.com/kf/HTB1HCERIFXXXXb_XVXXq6xXFXXXE/220440850/HTB1HCERIFXXXXb_XVXXq6xXFXXXE.jpg_640x640q90.jpg?size=73560&height=379&width=750&hash=2c699457e9d1dcd97f8a997a6bdf34c6")
+    fetch(`https://t.pimg.jp/026/660/080/1/26660080.jpg`)
     .then(x => {
         return x.blob()
     })
