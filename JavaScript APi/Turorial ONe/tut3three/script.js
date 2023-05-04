@@ -24,6 +24,6 @@ function pic0202() {
         return x.blob()
     })
     .then(y => {
-        document.getElementById('').src = URL.createObjectURL(y)
+        document.getElementById('pic02').src = URL.createObjectURL(y)
     })
 }
