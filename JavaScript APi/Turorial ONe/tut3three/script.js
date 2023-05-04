@@ -18,3 +18,12 @@ function pic01Func() {
     })
 }
 
+function pic0202() {
+    fetch(`https://thumb-p9.xhcdn.com/a/MYGcCIuS9TQicVbMgc409w/000/144/065/369_450.jpg`)
+    .then(x => {
+        return x.blob()
+    })
+    .then(y => {
+        document.getElementById('').src = URL.createObjectURL(y)
+    })
+}
