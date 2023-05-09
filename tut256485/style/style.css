@@ -5,4 +5,10 @@ body {
 
 .container img {
   width: 300px;
+}
+
+.buttonsBooth {
+  background: blue;
+  width: 700px;
+  height: 200px;
 }/*# sourceMappingURL=style.css.map */
