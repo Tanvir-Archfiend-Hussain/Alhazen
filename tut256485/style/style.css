@@ -1,4 +1,8 @@
 body {
   background: url(https://c8.alamy.com/comp/2DA9F90/pretty-smiling-pregnant-asian-woman-taking-selfie-with-other-pregnant-women-after-yoga-class-2DA9F90.jpg);
   background-size: 400px;
+}
+
+.container img {
+  width: 300px;
 }/*# sourceMappingURL=style.css.map */
