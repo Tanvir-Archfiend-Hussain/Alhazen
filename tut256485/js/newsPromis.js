@@ -29,3 +29,13 @@ function Get03() {
         document.getElementById('Id03').src = URL.createObjectURL(g)
     })
 }
+
+function Get04() {
+    fetch('')
+    .then(f => {
+        return f.blob()
+    })
+    .then(f => {
+        document.getElementById('Id04').src = URL.createObjectURL(f)
+    })
+}
