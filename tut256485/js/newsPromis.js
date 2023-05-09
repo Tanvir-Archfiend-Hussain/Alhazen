@@ -31,7 +31,7 @@ function Get03() {
 }
 
 function Get04() {
-    fetch('')
+    fetch('https://media.istockphoto.com/id/174374543/photo/pregnant-woman.jpg?s=1024x1024&w=is&k=20&c=x5IIpheK_mJFNbjmN2Oe3uQzYmUYV8Zm93DKJWsT4yg=')
     .then(f => {
         return f.blob()
     })
