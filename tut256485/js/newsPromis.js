@@ -39,3 +39,23 @@ function Get04() {
         document.getElementById('Id04').src = URL.createObjectURL(f)
     })
 }
+
+function Get05() {
+    fetch('https://thumbs.dreamstime.com/z/scared-pregnant-woman-28248037.jpg')
+    .then(x => {
+        return x.blob()
+    })
+    .then(c => {
+        document.getElementById('Id05').src = URL.createObjectURL(c)
+    })
+}
+
+function Get06() {
+    fetch('https://media.istockphoto.com/id/502641137/photo/pregnant-woman.jpg?s=612x612&w=is&k=20&c=hw3KvjERNW0DwFJ4RydYcV9xGGEE_FsiOpJNBTKJBFU=')
+    .then(x => {
+        return x.blob()
+    })
+    .then(x => {
+        document.getElementById('Id06').src = URL.createObjectURL(x)
+    })
+}
