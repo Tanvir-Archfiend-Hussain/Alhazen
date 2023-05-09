@@ -6,3 +6,13 @@ function fifty30(ati) {
     }
 }
 console.log(fifty30())
+
+
+let person = {
+    firstName : "",
+    lastName: "",
+    age: 50,
+    eye: "blue"
+}
+
+console.log(person)
