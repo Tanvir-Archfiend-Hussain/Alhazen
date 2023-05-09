@@ -20,7 +20,12 @@ function Get02() {
     })
 }
 
-function Get03(params) {
+function Get03() {
     fetch('https://thumbs.dreamstime.com/z/mature-pregnant-mother-senior-father-waiting-baby-years-old-66472080.jpg')
-    .then()
+    .then(x => {
+        return x.blob()
+    })
+    .then(g => {
+        document.getElementById('Id03').src = URL.createObjectURL(g)
+    })
 }
