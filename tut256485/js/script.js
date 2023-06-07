@@ -17,3 +17,5 @@ function Get48() {
         document.getElementById('Id48').src = URL.createObjectURL(x)
     })
 }
+
+
